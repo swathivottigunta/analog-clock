@@ -1,0 +1,76 @@
+/* Layout */
+* {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 6px 0px 0 9px;
+}
+
+#text .small {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+#text #text-box {
+  fill: none;
+  stroke-width: 1;
+  stroke: grey;
+}
+.clockbox,
+#clock {
+  width: 100%;
+}
+
+/* Clock styles */
+.circle {
+  fill: none;
+  stroke-width: 20;
+  stroke-miterlimit: 10;
+}
+
+.mid-circle {
+  fill: white;
+  stroke: #000;
+}
+
+.minute-marks {
+  fill: none;
+  stroke: #000;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+.second-marks {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+}
+
+.hour-arm {
+  fill: none;
+  stroke: #0600ff;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+
+.minute-arm {
+  fill: none;
+  stroke: #ff0400;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+
+.second-arm {
+  fill: none;
+  stroke: #007f00;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+#hour,
+#minute,
+#second {
+  transform-origin: 150px 150px;
+}
